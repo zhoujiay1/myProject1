@@ -71,10 +71,10 @@ public:
 			head2->pre = head1->pre;
 		}
 
-		return 1; 
+		return 1;
 	
 	};
-	virtual int insert(T *data) {
+	virtual int insert(T *data,Node *Number) {
 		return 1;
 	};
 };
